@@ -2,7 +2,7 @@
 
 int fibo(int n)
 {
-	if(n > 2){
+	if (n > 2) {
 		int wynik = fibo(n-1) + fibo(n-2);
 		return wynik;
 	}
